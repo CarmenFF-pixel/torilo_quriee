@@ -1,0 +1,504 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .logo img {
+        margin-top: 10px;
+        width: 9rem;
+    }
+    
+    nav {
+        background-color: #fff;
+        display: flex;
+        justify-content: space-around;
+        position: fixed;
+        z-index: 1;
+        width: 100%;
+    }
+    
+    .nav-items {
+        margin-top: 10px;
+    }
+    
+    .nav-items a {
+        text-decoration: none;
+        padding: 32px;
+        color: rgb(126, 125, 125);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 13px;
+    }
+    
+    .nav-items a:hover {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: purple;
+        border-bottom: 4px solid rgb(117, 3, 117);
+        transition: 0.2s;
+    }
+    
+    .nav-items button {
+        margin-bottom: 3px;
+        background-color: rgb(117, 3, 117);
+        border-radius: 4px;
+        padding: 13px 40px;
+        border: none;
+        font-size: 13px;
+    }
+    
+    .nav-items button:hover {
+        cursor: pointer;
+        background-color: rgb(92, 3, 92);
+    }
+    
+    .banner img {
+        height: 35.7rem;
+        margin-top: 60px;
+    }
+    
+    .banner {
+        position: relative;
+    }
+    
+    .ads {
+        position: absolute;
+        top: 20%;
+        left: 12%;
+        height: 60px;
+    }
+    
+    .ads h1 {
+        font-size: 35px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: bold;
+        color: #fff;
+    }
+    
+    .adsparagraph {
+        margin-top: 40px;
+        color: #fff;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+    }
+    
+    .adsparagraph p {
+        margin: 5px;
+    }
+    
+    .appdownload img {
+        height: 40px;
+        margin-top: 50px;
+    }
+    
+    .appdownload img:hover {
+        cursor: pointer;
+    }
+    
+    #appstore {
+        padding-left: 8px;
+    }
+    
+    .appdetails {
+        background-color: rgb(247, 247, 247);
+        display: flex;
+    }
+    
+    .appdetails img {
+        margin-top: 100px;
+        margin-left: 150px;
+        height: 30rem;
+    }
+    
+    .appparagraph {
+        margin-top: 170px;
+        margin-left: 100px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    .appdetails h3 {
+        text-transform: uppercase;
+        margin-bottom: 30px;
+        color: rgb(26, 25, 25);
+    }
+    
+    .appdetails p {
+        width: 370px;
+        color: rgb(150, 148, 148);
+    }
+    
+    .appdetails button {
+        margin-top: 50px;
+        padding: 15px 45px;
+        border: none;
+        color: #fff;
+        background-color: rgb(117, 3, 117);
+        border-radius: 4px;
+        font-size: 12px;
+    }
+    
+    .appdetails button:hover {
+        cursor: pointer;
+        background-color: rgb(92, 3, 92);
+    }
+    
+    .make-money {
+        background-color: rgb(247, 247, 247);
+        display: flex;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    .make-moneypara {
+        margin-left: 150px;
+        margin-top: 60px;
+    }
+    
+    .make-money h3 {
+        text-transform: uppercase;
+        margin-bottom: 30px;
+        color: rgb(26, 25, 25);
+    }
+    
+    .make-money p {
+        width: 370px;
+        color: rgb(150, 148, 148);
+    }
+    
+    .make-money button {
+        margin-top: 50px;
+        padding: 15px 45px;
+        border: none;
+        color: #fff;
+        background-color: rgb(117, 3, 117);
+        border-radius: 4px;
+        font-size: 12px;
+    }
+    
+    .make-money button:hover {
+        cursor: pointer;
+        background-color: rgb(92, 3, 92);
+    }
+    
+    .make-money img {
+        height: 30rem;
+        margin-left: 150px;
+    }
+    
+    .whyus {
+        align-items: center;
+    }
+    
+    .whyus-header {
+        margin-top: 80px;
+        text-align: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    .whyus h3 {
+        font-weight: 300;
+        color: rgb(150, 148, 148);
+        font-size: 15px;
+        letter-spacing: 3px;
+        margin-bottom: 15px;
+    }
+    
+    .whyus h2 {
+        font-size: 22px;
+    }
+    
+    .whyus img {
+        height: 30rem;
+        margin-top: 100px;
+        margin-left: 260px;
+    }
+    
+    .lex {
+        margin-left: 300px;
+        margin-bottom: 200px;
+    }
+    
+    .lex h4 {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 16px;
+        width: 200px;
+        float: left;
+        margin-left: 15px;
+        padding: 15px;
+        text-align: center;
+    }
+    
+    .border-dash {
+        border-left: 2px solid rgb(204, 204, 204);
+        border-left-style: dashed;
+        border-right: 2px solid rgb(204, 204, 204);
+        border-right-style: dashed;
+    }
+    
+    .sec img {
+        width: 84.3rem;
+        margin-bottom: 80px;
+    }
+    
+    .sec {
+        position: relative;
+    }
+    
+    .sec h1 {
+        position: absolute;
+        top: 30%;
+        left: 32%;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: 550;
+        font-size: 35px;
+    }
+    
+    .heads {
+        text-align: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    .heads h3 {
+        color: rgb(150, 148, 148);
+        font-size: 15px;
+        margin-bottom: 15px;
+        letter-spacing: 3px;
+        font-weight: 300;
+    }
+    
+    .whoweserve {
+        text-align: center;
+        position: relative;
+        margin-bottom: 80px;
+    }
+    
+    .whoweserve img {
+        width: 30rem;
+        margin-top: 50px;
+        padding-left: 10px;
+    }
+    
+    .serveme {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        position: absolute;
+        top: 86%;
+    }
+    
+    .serveme h4 {
+        margin-left: 19rem;
+        float: left;
+        font-size: 32px;
+        color: #fff;
+    }
+    
+    .anchor {
+        background-image: linear-gradient(180deg, #fff, rgb(233, 215, 233));
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    .ouranchor {
+        text-align: center;
+        color: rgb(150, 148, 148);
+        font-size: 15px;
+        margin-bottom: 15px;
+        letter-spacing: 3px;
+        font-weight: 300;
+    }
+    
+    .whatwevalue {
+        text-align: center;
+    }
+    
+    .cont {
+        margin: 80px 200px;
+        margin-bottom: 80px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .customers {
+        margin-top: 25px;
+        background-color: #fff;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        width: 250px;
+        height: 210px;
+        padding: 30px 0px;
+        padding-left: 20px;
+        box-shadow: 10px 10px 20px 10px rgb(231, 231, 231);
+    }
+    
+    .customers img {
+        height: 40px;
+    }
+    
+    .customers h3 {
+        margin: 15px 0px;
+        font-size: 17px;
+    }
+    
+    .customers p {
+        font-size: 12px;
+        color: rgb(150, 148, 148);
+    }
+    
+    .community {
+        background-color: #fff;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        width: 250px;
+        height: 250px;
+        padding: 30px 0px;
+        padding-left: 20px;
+        box-shadow: 10px 10px 20px 10px rgb(231, 231, 231);
+    }
+    
+    .community img {
+        height: 40px;
+    }
+    
+    .community h3 {
+        margin: 15px 0px;
+        font-size: 17px;
+    }
+    
+    .community p {
+        font-size: 12px;
+        color: rgb(150, 148, 148);
+    }
+    
+    .partnerships {
+        margin-top: 25px;
+        background-color: #fff;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        width: 250px;
+        height: 210px;
+        padding: 30px 10px;
+        padding-left: 20px;
+        box-shadow: 10px 10px 20px 1px rgb(231, 231, 231);
+    }
+    
+    .partnerships img {
+        height: 40px;
+    }
+    
+    .partnerships h3 {
+        margin: 15px 0px;
+        font-size: 17px;
+    }
+    
+    .partnerships p {
+        font-size: 12px;
+        color: rgb(150, 148, 148);
+    }
+    
+    .getintouch {
+        margin-left: 220px;
+    }
+    
+    .getintouch h3 {
+        font-size: 18px;
+        font-weight: 500;
+        letter-spacing: 1px;
+        margin-bottom: 3px;
+    }
+    
+    .getintouch h2 {
+        font-size: 29px;
+    }
+    
+    .getintouch button {
+        float: right;
+        margin-top: -60px;
+        margin-right: 235px;
+        padding: 15px 45px;
+        border: none;
+        color: #fff;
+        background-color: rgb(117, 3, 117);
+        border-radius: 4px;
+        font-size: 12px;
+    }
+    
+    .getintouch button:hover {
+        cursor: pointer;
+        background-color: rgb(92, 3, 92);
+    }
+    
+    .footer {
+        background-color: black;
+        color: #fff;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    .footercontents {
+        display: flex;
+        border-bottom: 1px solid #fff;
+        margin: 0px 150px;
+    }
+    
+    .aboutus {
+        display: flex;
+        margin-top: 110px;
+        margin-left: 300px;
+        list-style: none;
+        margin-bottom: 60px;
+    }
+    
+    .footer img {
+        margin: 40px 0px;
+        width: 7rem;
+    }
+    
+    .footer p {
+        color: rgb(150, 148, 148);
+        font-size: 13px;
+        line-height: 2;
+    }
+    
+    .link h3 {
+        font-size: 15px;
+        font-weight: 500;
+        margin-bottom: 15px;
+    }
+    
+    .link a {
+        text-decoration: none;
+        color: rgb(150, 148, 148);
+        font-size: 13px;
+        line-height: 1.7;
+    }
+    
+    .contact {
+        margin-left: 100px;
+    }
+    
+    .contact h3 {
+        font-size: 15px;
+        font-weight: 500;
+        margin-bottom: 15px;
+    }
+    
+    .contact a {
+        text-decoration: none;
+        color: rgb(150, 148, 148);
+        font-size: 13px;
+        line-height: 1.7;
+    }
+    
+    .copyright {
+        margin-top: 25px;
+        margin-left: 150px;
+        display: flex;
+    }
+    
+    .companyname {
+        color: #fff;
+        font-weight: bold;
+    }
+    
+    .help {
+        margin-left: 52rem;
+    }
+    
+    .help a {
+        text-decoration: none;
+        font-size: 13px;
+        color: #fff;
+        margin-left: 10px;
+    }
